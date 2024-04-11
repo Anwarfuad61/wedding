@@ -22,8 +22,4 @@ function kirimData() {
   document.getElementById("form-nama").value = "";
   document.getElementById("form-kehadiran").value = "0";
   document.getElementById("form-pesan").value = "";
-
-  // Menampilkan hasil kehadiran
-  var hasilKehadiran = kehadiran == "1" ? "Hadir" : "Berhalangan";
-  alert("Data telah berhasil dikirim!\nKehadiran: " + hasilKehadiran);
 }
