@@ -23,6 +23,7 @@ function kirimData() {
   document.getElementById("form-kehadiran").value = "0";
   document.getElementById("form-pesan").value = "";
 
-  // Menampilkan notifikasi bahwa data berhasil dikirim
-  alert("Data telah berhasil dikirim!");
+  // Menampilkan hasil kehadiran
+  var hasilKehadiran = kehadiran == "0" ? "Hadir" : "Berhalangan";
+  alert("Data telah berhasil dikirim! ");
 }
