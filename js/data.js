@@ -22,4 +22,7 @@ function kirimData() {
   document.getElementById("form-nama").value = "";
   document.getElementById("form-kehadiran").value = "0";
   document.getElementById("form-pesan").value = "";
+
+  // Menampilkan notifikasi bahwa data berhasil dikirim
+  alert("Data telah berhasil dikirim!");
 }
